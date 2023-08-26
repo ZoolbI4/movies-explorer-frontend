@@ -1,6 +1,6 @@
 # movies-explorer-frontend
 
-Ссылка на пул реквест: https://github.com/ZoolbI4/movies-explorer-frontend/pull/1
+Ссылка на пул реквест: https://github.com/ZoolbI4/movies-explorer-frontend/pull/2
 
 ## Ссылки на проект
 
