@@ -1,0 +1,142 @@
+.cards__element {
+    width: 100%;
+    border-radius: 6px;
+    background: #222;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.08);
+}
+
+.element {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    max-width: 360px; 
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.element__info {
+    display: flex;
+    padding: 19px 17px;
+    justify-content: space-between;
+}
+
+.element__footr-info {
+    display: flex;
+    padding: 14px;
+    justify-content: space-between;
+}
+.element__title {
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 250px;
+    max-height: 32px;
+}
+
+.element__duration {
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #8B8B8B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.element-button {
+    margin: auto;
+    outline: none;
+    border: none;
+    width: 100px;
+    height: 29px;
+    background: transparent url(../../images/element_save-button.svg) center center / cover no-repeat;
+    filter: drop-shadow(0 0 1px rgba(0, 0, 0, .25));
+    transition: all 0.2s linear;
+    cursor: pointer;
+}
+
+.element-button:hover {
+    opacity: 0.7;
+}
+
+.element__save-button {
+    background-image: url(../../images/element_save-button.svg);
+}
+
+.element__save-button_active {
+    background-image: url(../../images/element_save-button_active.svg);
+}
+
+.element__delete-button {
+    background-image: url(../../images/element_delete-button.svg);
+}
+
+.element__link {
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.element__link:hover {
+    opacity: 0.8;
+}
+
+.element__card {
+    position: relative; 
+    width: 100%;
+}
+.element__photo {
+    width: 100%;
+    min-height: 200px;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 896px) {
+    .element__info {
+        padding: 18px;
+    }
+
+    .element__photo {
+        min-height: 190px;
+        max-height: 190px;
+    }
+}
+
+@media screen and (max-width: 564px) {
+    .cards__element {
+        max-width: 300px;
+    }
+
+    .element__title {
+        font-size: 12px;
+    }
+    .element__info {
+        padding: 14px;
+    }
+    .element-button {
+        top: 10px;
+        right: 10px;
+    }
+    .element__duration{
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 18px;
+    }
+    .element__photo {
+        min-height: 168px;
+        max-height: 168px;
+    }
+    
+}
