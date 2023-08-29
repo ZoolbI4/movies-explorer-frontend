@@ -51,7 +51,7 @@ function MoviesCardList({ filteredMovies, savedMovies, onSaveMovie, onDeleteMovi
         const display = window.innerWidth;
         if (display > MIN_BIG_SCREEN_SIZE) {
             setShownMoviesQuantity(shownMoviesQuantity + CARDS_MORE_DECKTOP);
-        } else if (display > MIN_MEDIUM_SCREEN_SIZE && display < MAX_MEDIUM_SCREEN_SIZE) {
+        } else if (display > MIN_MEDIUM_SCREEN_SIZE && display < MAX_MEDIUM_SCREEN_SIZE ) {
             setShownMoviesQuantity(shownMoviesQuantity + CARDS_MORE_MOBILE);
         } else if (display < MAX_SMALL_SCREEN_SIZE) {
             setShownMoviesQuantity(shownMoviesQuantity + CARDS_MORE_MOBILE);

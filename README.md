@@ -1,10 +1,10 @@
 # movies-explorer-frontend
 
-Ссылка на пул реквест: https://github.com/ZoolbI4/movies-explorer-frontend/pull/2
+Ссылка на пул реквест: https://github.com/ZoolbI4/movies-explorer-frontend/pull/1
 
-## Ссылки на проект 
+## Ссылки на проект
 
- IP 84.201.135.82
+IP 84.201.135.82
 
 Frontend: https://movies.zooloo.nomoreparties.co
 

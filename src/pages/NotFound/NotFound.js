@@ -6,8 +6,9 @@ function NotFound() {
   const navigate = useNavigate();
 
   function handleBackClick() {
-    navigate(-1);
-  }
+    navigate(-2, { replace: true });
+  } 
+ 
 
   return (
     <main className="content page__content">
@@ -17,7 +18,7 @@ function NotFound() {
         <button
           type="button"
           className="not-found__button"
-          onClick={handleBackClick}
+          onClick={handleBackClick} 
         >
           Назад
         </button>
@@ -26,4 +27,5 @@ function NotFound() {
   );
 }
 
-export default NotFound;
+export default NotFound; 
+
